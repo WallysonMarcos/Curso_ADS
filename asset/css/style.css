@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .header{
     width: 100%;
@@ -40,14 +41,55 @@
     font-size: 14px;
 }
 /*    Corpo   */
-.corpo{
-    width: 100%;
+
+.main{
     
+    display: flex;
+    flex-direction: column;
+    /* background-color: green;     */
 }
 
-.titlemain{
+
+.corpo{    
+    padding-top:  15px;
+    padding-right:  15px;
+    padding-left:  15px;
+    /* background-color: blue;     */
+}
+.infocurso{
+    padding-top:  15px;
+    padding-right:  15px;
+    padding-left:  15px;
+    /* background-color: red; */
+}
+
+.conceito{
+    width: 159px;
+    background: #117A25;
+    border-radius: 5px;    
+    text-align: center;
+    color: white;
     display: block;
-    margin: 15px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cordenardor{    
+    padding-top: 15px; 
+    width: 100%;    
+    text-align: center;
+}    
+
+.cordenardor img{
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titlemain{ 
     font-family: 'Roboto', sans-serif;
     font-style: normal;    
     font-weight: bold;
@@ -56,8 +98,6 @@
 }
 
 .bodymain{
-    display: block;
-    margin: 15px;
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;    
@@ -68,6 +108,8 @@
 .bodymain ul{
     margin: 15px;
 }
+
+
 /*    Footer  */
 .footer{
     width: 100%;
@@ -112,3 +154,30 @@
     font-weight: normal;
     font-size: 18px;
 }
+
+
+@media (min-width: 600px) {
+    .header{
+        padding-left: 60px;
+    }
+    .main {
+        padding-left: 60px;
+        flex-direction: row;
+    }
+    .footer{
+        padding-left: 60px;
+        flex-direction: row;
+    }
+    .logofooter{    
+        padding-top: 15px; 
+        width: 30%;    
+    }    
+    
+    .logofooter img{
+        padding: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+  }
