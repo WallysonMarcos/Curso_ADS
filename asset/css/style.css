@@ -173,11 +173,12 @@
     }
     .logofooter{    
         padding-top: 15px; 
-        width: 30%;    
+        width: 10%;    
     }    
     
-    .logofooter img{
+    .logofooter img{        
         display: block;
+        padding-top: 15px; 
         margin: 10px;
     }
     
