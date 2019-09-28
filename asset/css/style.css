@@ -1,0 +1,114 @@
+/*******************************/
+/*** Classes usado no menu ****/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-color: #117A25;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;    
+}
+
+.iconmenu{
+    /* background-color: red; */
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.titlepage{
+     /* background-color: blue; */
+    color: white;   
+    padding-top: 25px; 
+    margin: 5px;   
+}
+
+.titlepage h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+.titlepage h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+/*    Corpo   */
+.corpo{
+    width: 100%;
+    
+}
+
+.titlemain{
+    display: block;
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;    
+    font-weight: bold;
+    text-align: center;
+    color: #00420C;
+}
+
+.bodymain{
+    display: block;
+    margin: 15px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;    
+    font-weight: normal;
+    color: #000000;
+}
+
+.bodymain ul{
+    margin: 15px;
+}
+/*    Footer  */
+.footer{
+    width: 100%;
+    background-color: #00420C;
+    position: static;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.logofooter{    
+    padding-top: 15px; 
+    width: 100%;    
+}    
+
+.logofooter img{
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ifroend{
+    color: white;   
+    padding-top: 15px; 
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px; 
+}
+
+.ifroend h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ifroend h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
