@@ -170,34 +170,30 @@ text-decoration: none;
 
 
 /*    Footer  */
-.footer{
-    width: 100%;
+.footer{    
     background-color: #00420C;
-    position: static;
-    left: 0px;
-    top: 0px;
     display: flex;
     flex-direction: column;  
 }
 
-.logofooter{    
-    padding-top: 15px; 
-    width: 100%;    
+.logofooter{   
+    padding-top: 15px;    
+    display: block;
 }    
 
 .logofooter img{
-    padding: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .ifroend{
+    display: block;
     color: white;   
-    padding-top: 15px; 
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 15px; 
+    margin-top: 15px; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px; 
 }
 
 .ifroend h1{
@@ -256,11 +252,11 @@ text-decoration: none;
 
     .footer{
         width: 100%;    
-        padding-left: 40px;
         flex-direction: row;
     }
 
     .logofooter{      
+        padding-left: 40px;
         padding-top: 15px; 
         width: 20%;    
         height: 100%;
