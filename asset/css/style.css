@@ -162,23 +162,23 @@
         
     }
     .main {
-        padding-left: 60px;
-        padding-right: 30px;
+        width: 100%;     
         flex-direction: row;
     }
+
     .footer{
         padding-left: 60px;
         flex-direction: row;
     }
-    .logofooter{    
+    .logofooter{      
         padding-top: 15px; 
-        width: 10%;    
+        width: 20%;    
+        height: 100%;
     }    
     
-    .logofooter img{        
+    .logofooter img{       
         display: block;
-        padding-top: 15px; 
-        margin: 10px;
+
     }
     
   }
