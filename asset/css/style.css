@@ -14,6 +14,7 @@
 }
 
 .nav{
+    width:100%;
     display: flex;
     flex-direction: row;    
 }
@@ -29,6 +30,7 @@
     color: white;   
     padding-top: 25px; 
     margin: 5px;   
+    width:100%;
 }
 
 .titlepage h1{
@@ -104,12 +106,13 @@ text-decoration: none;
 
 
 .corpo{    
+    
     padding-top:  15px;
     padding-right:  15px;
     padding-left:  15px;
     /* background-color: blue;     */
 }
-.infocurso{
+.infocurso{    
     padding-top:  15px;
     padding-right:  15px;
     padding-left:  15px;
@@ -236,16 +239,23 @@ text-decoration: none;
         padding: 15px;        
     }
 
-    .corpo{
+    .corpo{        
         padding-left: 40px;
     }
 
     .main {
-        width: 100%;     
+        width: 100%;        
         flex-direction: row;
+    }
+    .corpo{
+        width: 70%;
+    }
+    .infocurso{
+        width: 30%;
     }
 
     .footer{
+        width: 100%;    
         padding-left: 40px;
         flex-direction: row;
     }
@@ -257,7 +267,7 @@ text-decoration: none;
     }
 
     .ifroend{
-        width: 80%;
+        width: 70%;
     }
 
     .logofooter img{       
