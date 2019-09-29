@@ -162,8 +162,27 @@ text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #000000;
+    margin-bottom: 20px;
+
+    
 }
 
+.tbdisciplina{
+    border: 1px solid #000000;
+    display: block;
+    
+}
+.tbdisciplina thead{
+    display: block;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #000000;
+    background-color: #E5E5E5;
+}
+.tbdisciplina li{
+    list-style: none;
+
+}
 .bodymain ul{
     margin: 15px;
 }
@@ -239,6 +258,18 @@ text-decoration: none;
         padding-left: 40px;
     }
 
+    .bodymain{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 20px;
+    }
+    .tbdisciplina {
+        width: 50%;
+        
+        display: inline-block;
+
+    }
     .main {
         width: 100%;        
         flex-direction: row;
