@@ -1,10 +1,12 @@
 /*******************************/
 /*** Classes usado no menu ****/
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
 .header{
     width: 100%;
     background-color: #117A25;
@@ -28,18 +30,16 @@
 .titlepage{
      /* background-color: blue; */
     color: white;   
-    padding-top: 25px; 
-    margin: 5px;   
-    width:100%;
+    padding-top: 25px;  
+    padding-bottom: 10px; 
+    width:80%;
 }
 
 .titlepage h1{
-    font-family: 'Roboto', sans-serif;
     font-size: 22px;
 }
 
 .titlepage h4{
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -55,9 +55,10 @@
 .topmenu  li{
     list-style: none;
     display: inline-block;
-    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100px;
-    text-align: center;
+    text-align: left;
 }
 
 .topmenu   li:hover{
@@ -92,8 +93,8 @@
 }
 
 .sidemenu li > a{
-color: #fff;
-text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
   
 /*    Corpo   */
@@ -105,8 +106,7 @@ text-decoration: none;
 }
 
 
-.corpo{    
-    
+.corpo{     
     padding-top:  15px;
     padding-right:  15px;
     padding-left:  15px;
@@ -145,48 +145,27 @@ text-decoration: none;
     margin-right: auto;
 }
 
-.cordenardor h1{
-    
+.cordenardor h1{    
     font-size: 18px;
 }
 
-.titlemain{ 
+.main_titleini h1{ 
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-align: center;
+    text-align: left;
     color: #00420C;
 }
 
-.bodymain{
-    font-size: 12px;
+.main_bodyini  p{
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    color: #000000;
-    margin-bottom: 20px;
-
-    
+    color:black;
+    margin-bottom: 20px;    
 }
 
-.tbdisciplina{
-    border: 1px solid #000000;
-    display: block;
-    
-}
-.tbdisciplina thead{
-    display: block;
-    text-align: left;
-    padding: 5px;
-    border: 1px solid #000000;
-    background-color: #E5E5E5;
-}
-.tbdisciplina li{
-    list-style: none;
 
-}
-.bodymain ul{
+.main_bodyini ul{
     margin: 15px;
 }
-
 
 /*    Footer  */
 .footer{    
@@ -239,30 +218,26 @@ text-decoration: none;
     .iconmenu{
         display: none;
     }
-    .topmenu{
+    .topmenu{        
         display: block;
         width: 100%;
         background: #00420C;
-
+    }
+    .topmenu ul{
+        padding-left: 80px;
     }
     .titlepage{
-        padding-left: 40px;
+        padding-left: 80px;
     }
 
-    .titlemain{ 
+    .main_titleini h1{ 
         text-align: left;
-        padding: 15px;        
+        padding-top: 15px;   
+        padding-bottom: 15px;    
     }
 
     .corpo{        
-        padding-left: 40px;
-    }
-
-    .bodymain{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        margin: 20px;
+        padding-left: 80px;
     }
     .tbdisciplina {
         width: 50%;
@@ -275,10 +250,11 @@ text-decoration: none;
         flex-direction: row;
     }
     .corpo{
-        width: 70%;
+        width: 60%;
     }
     .infocurso{
         width: 30%;
+        padding-right: 40px; 
     }
 
     .footer{
@@ -287,9 +263,9 @@ text-decoration: none;
     }
 
     .logofooter{      
-        padding-left: 40px;
+        padding-left: 70px;
         padding-top: 15px; 
-        width: 20%;    
+        width: 10%;    
         height: 100%;
     }
 
@@ -300,6 +276,8 @@ text-decoration: none;
     .logofooter img{       
         display: block;
         float: left;
+        width: 90px;
+        padding: 10px;
     }
     
   }
