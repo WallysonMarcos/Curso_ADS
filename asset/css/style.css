@@ -108,7 +108,7 @@
 }
 
 
-.corpo{     
+.corpo{         
     padding-top:  15px;
     padding-right:  15px;
     padding-left:  15px;
@@ -123,14 +123,16 @@
 
 .conceito{
     width: 159px;
+    min-height: 100px;
     background: #117A25;
     border-radius: 5px;    
     text-align: center;
     color: white;
     display: block;
-    padding: 10px;
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;   
 }
 
 .cordenardor{    
@@ -238,11 +240,14 @@
     .main_titleini h1{ 
         text-align: left;
         padding-top: 15px;   
-        padding-bottom: 15px;    
+        padding-bottom: 15px;  
+        margin-top: 20px;
+        margin-bottom: 20px;  
     }
 
     .corpo{        
         padding-left: 80px;
+       
     }
     .tbdisciplina {
         width: 50%;
@@ -251,8 +256,10 @@
 
     }
     .main {
-        width: 100%;        
+        width: 100%;       
         flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .corpo{
         width: 60%;
