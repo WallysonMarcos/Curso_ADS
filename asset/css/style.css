@@ -9,6 +9,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 .header{
     width: 100%;
     background-color: #117A25;
@@ -107,6 +113,7 @@
     display: flex;
     flex-direction: column;
     /* background-color: green;     */
+    margin-bottom: 30px;
 }
 
 
@@ -294,4 +301,178 @@
         padding: 10px;
     }
     
+  }
+  
+.disciplina_title{
+    text-align: center;
+    font-size: 24px;
+    color: #00420C;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+@media(min-width: 600px) {
+    .disciplina_title{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 36px;
+    }
+}
+
+.table{
+    width: 327px;
+    display: block;
+}
+.table th{
+    width: 325px;
+}
+  .table, .table th, .table{
+    border: 1px black solid;
+    border-collapse: collapse;
+  }
+  .table th, .table td{
+    padding: 10px;
+  }
+  .table tr:nth-child(1){
+    background-color: lightgrey;
+  }
+  .table tr:not(:nth-child(1)):hover{     
+    background-color: lightgreen;
+  }
+  
+  @media(min-width: 600px) {
+    .tabelas{
+        margin-left: 60px;
+    }
+    .table{
+        margin-right: auto;
+        width: 40%;
+        display: inline-flex;
+        height: 327px;
+        justify-items: center;
+  }
+  .table th{
+    width: 540px;
+  }
+}
+
+
+.professores__titulo{
+    font-size: 28px;
+    color: #00420C;
+    text-align: center;
+    margin: 10px auto;
+    display: inline-block;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.professores__bloco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: initial;
+}
+@media(min-width: 600px) {
+    .professores__bloco{
+        justify-content: space-between;
+    }
+}
+.professores__cartao{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+.professores__foto{
+    border-radius: 5px;
+    border: 0px #00420C solid;
+    margin: 10px 15px;
+}
+.professores__nome{
+    font-size: 18px;
+    color: #00420C;
+    margin-top: 20px;
+    margin-right: 20px; 
+    line-height: 1.5;
+    max-width: 200px;
+}
+@media(min-width: 600px) {
+    .professores__nome{
+        width: 300px;
+    }
+}
+
+
+
+
+/* CONTATO */
+.contato_campo{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+@media(min-width: 600px) {
+    .contato_campo{
+        justify-content: initial;
+        margin-left: 20px;
+    }
+}
+.contato{
+    margin: 30px 0;
+    font-size: 24px;
+    color: #00420C;
+    text-align: center;
+}
+@media(min-width: 600px) {
+    .contato{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+}
+.label{
+    font-size: 12px;
+    color: #117A25;
+    width: 50px;
+}
+@media(min-width: 600px) {
+    .label{
+        font-size: 16px;
+        width: 100px;
+    }
+}
+.campo{
+    border: 0;
+    border-bottom: 1px #00420C solid;
+    width: 327px;
+    color: #00420C;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -50px;
+    outline: 0;
+  }
+  @media(min-width: 600px) {
+      .campo{
+          margin-left: -100px;
+          width: 500px;
+          margin-top: 30px;
+          margin-bottom: 35px;
+      }
+  }
+  .btn__enviar{
+      width: 50%;
+      height: 39px;
+      border-radius: 5px;
+      border: 0;
+      color: white;
+      text-align: center;
+      background-color: #117A25;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  @media(min-width: 600px) {
+      .btn__enviar{
+          width: 80px;
+          height: 30px;
+         display: block;
+         margin-left: 420px;
+      }
   }

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="Site do Curso de ADS IFRO">
     <link rel="stylesheet" type="text/css" href="asset/css/style.css" />
-    <script rel="stylesheet" type="text/javascript" src="asset/js/script.js">  </script>  
     <script src="asset/js/jquery-3.4.1.min.js"></script>
+    <script rel="stylesheet" type="text/javascript" src="asset/js/script.js">  </script>     
     <title>Document</title>
 </head>
 <body>
@@ -28,31 +28,27 @@
         <div class="optmenu">
             <div class="sidemenu" id="sidemenu">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Disciplinas</a></li>
-                    <li><a href="#">Professores</a></li>
-                    <li><a href="#">Contato</a></li>                    
+                    <li><a href="#" onclick="fSelectMenu(0)">Inicio</a></li>
+                    <li><a href="#" onclick="fSelectMenu(1)">Disciplinas</a></li>
+                    <li><a href="#" onclick="fSelectMenu(2)">Professores</a></li>
+                    <li><a href="#" onclick="fSelectMenu(3)">Contato</a></li>                    
                 </ul>
             </div>  
             <div class="topmenu" id="topmenu">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Disciplinas</a></li>
-                    <li><a href="#">Professores</a></li>
-                    <li><a href="#">Contato</a></li>                    
+                    <li><a href="#" onclick="fSelectMenu(0)">Inicio</a></li>
+                    <li><a href="#" onclick="fSelectMenu(1)">Disciplinas</a></li>
+                    <li><a href="#" onclick="fSelectMenu(2)">Professores</a></li>
+                    <li><a href="#" onclick="fSelectMenu(3)">Contato</a></li>                  
                 </ul>
             </div>   
         </div>
     </header>
     
     <main class="main" id="main_corpo" ></main>
-
-    <script>        
-        $(document).ready(function(){
-            $('#main_corpo').load("inicio.html");
-        });
-    </script>
-   
+   <script>
+   $('#main_corpo').load("inicio.html");
+   </script>
     <footer class="footer">
         <div class="logofooter">
             <img src="asset/img/logo-ifro-branco.svg" alt="Logo Instituto Federal de Rondônia">
