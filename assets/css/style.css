@@ -382,7 +382,7 @@
 }
 .professores__foto{
     border-radius: 5px;
-    border: 0px #00420C solid;
+    border: 1px #00420C solid;
     margin: 10px 15px;
 }
 .professores__nome{
