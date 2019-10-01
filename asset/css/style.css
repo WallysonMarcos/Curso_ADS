@@ -53,11 +53,12 @@
 }
 
 .topmenu  li{
+    width: 100px;
     list-style: none;
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 100px;
+    margin-right: 20px;    
     text-align: left;
 }
 
@@ -86,6 +87,7 @@
     list-style: none;
     display: block;
     padding: 30px;
+    
 }
 
 .sidemenu  li:hover{
@@ -152,7 +154,9 @@
 .main_titleini h1{ 
     font-family: 'Roboto', sans-serif;
     text-align: left;
+    font-weight: normal;
     color: #00420C;
+    padding-top: 60px;
 }
 
 .main_bodyini  p{
@@ -192,13 +196,14 @@
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 15px; 
+    padding-left: 20px;
 }
 
 .ifroend h1{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: normal;
+    font-size: 20px;  
 }
 
 .ifroend h2{
