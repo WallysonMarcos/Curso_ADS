@@ -1,5 +1,3 @@
-var InPage;
-
 function EnableMenu(){
     var lMenu = document.getElementById("enablemenu");
     var SideMenu = document.getElementById("sidemenu");
@@ -19,4 +17,3 @@ function EnableMenu(){
          case 3: $('#main_corpo').load("contato.html"); break;
      }    
 };
-
